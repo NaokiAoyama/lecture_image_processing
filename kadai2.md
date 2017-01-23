@@ -16,7 +16,6 @@ imagesc(ORG); axis image; % 画像の表示
 によって，原画像を読み込み，表示した結果を図１に示す．
 
 ![原画像](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai2-1.png?raw=true)  
-
 図1 原画像
 
 階調画像を生成するには閾値256を階調数で割れば求めることができる．
