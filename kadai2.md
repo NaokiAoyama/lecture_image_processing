@@ -10,9 +10,7 @@
 本課題ではディジタルカラー画像を白黒画像に変換して扱う．
 
 ORG=imread('Lenna.png'); % 原画像の入力 
-
 ORG = rgb2gray(ORG); colormap(gray); colorbar; 
-
 imagesc(ORG); axis image; % 画像の表示 
 
 によって，原画像を読み込み，表示した結果を図１に示す．
