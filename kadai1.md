@@ -22,7 +22,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 1/2サンプリングの結果を図２に示す．
 
-![原画像](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai01_1.png?raw=true)  
+![原画像](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai1_1.png?raw=true)  
 
 図2 1/2サンプリング
 
