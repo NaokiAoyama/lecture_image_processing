@@ -1,36 +1,36 @@
-#‰Û‘è8@ƒ‰ƒxƒŠƒ“ƒO
+#èª²é¡Œ8ã€€ãƒ©ãƒ™ãƒªãƒ³ã‚°
 
-1.‰Û‘è“à—e  
-“ñ’l‰»‚³‚ê‚½‰æ‘œ‚Ì˜AŒ‹¬•ª‚Éƒ‰ƒxƒ‹‚ğ‚Â‚¯‚æD
+1.èª²é¡Œå†…å®¹  
+äºŒå€¤åŒ–ã•ã‚ŒãŸç”»åƒã®é€£çµæˆåˆ†ã«ãƒ©ãƒ™ãƒ«ã‚’ã¤ã‘ã‚ˆï¼
 
-2.•û–@‚Æ‰Û‘è“à—e  
-•W€‰æ‘œunekov‚ğŒ´‰æ‘œ‚Æ‚·‚éD‚±‚Ì‰æ‘œ‚Íc500‰æ‘œC‰¡500‰æ‘f‚É‚æ‚é”’•”Z’W‰æ‘œ‚Å‚ ‚éD  
-–{‰Û‘è‚Å‚ÍƒfƒBƒWƒ^ƒ‹ƒJƒ‰[‰æ‘œ‚ğ”’•‰æ‘œ‚É•ÏŠ·‚µ‚Äˆµ‚¤D
+2.æ–¹æ³•ã¨èª²é¡Œå†…å®¹  
+æ¨™æº–ç”»åƒã€Œnekoã€ã‚’åŸç”»åƒã¨ã™ã‚‹ï¼ã“ã®ç”»åƒã¯ç¸¦500ç”»åƒï¼Œæ¨ª500ç”»ç´ ã«ã‚ˆã‚‹ç™½é»’æ¿ƒæ·¡ç”»åƒã§ã‚ã‚‹ï¼  
+æœ¬èª²é¡Œã§ã¯ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ã‚«ãƒ©ãƒ¼ç”»åƒã‚’ç™½é»’ç”»åƒã«å¤‰æ›ã—ã¦æ‰±ã†ï¼
 
-ORG=imread('Lenna.png'); % Œ´‰æ‘œ‚Ì“ü—Í  
-ORG= rgb2gray(ORG); % ƒJƒ‰[‰æ‘œ‚ğ”’•”Z’W‰æ‘œ‚Ö•ÏŠ·  
+ORG=imread('Lenna.png'); % åŸç”»åƒã®å…¥åŠ›  
+ORG= rgb2gray(ORG); % ã‚«ãƒ©ãƒ¼ç”»åƒã‚’ç™½é»’æ¿ƒæ·¡ç”»åƒã¸å¤‰æ›  
 
-‚É‚æ‚Á‚ÄCŒ´‰æ‘œ‚ğ“Ç‚İ‚İC•\¦‚µ‚½Œ‹‰Ê‚ğ}‚P‚É¦‚·D
+ã«ã‚ˆã£ã¦ï¼ŒåŸç”»åƒã‚’èª­ã¿è¾¼ã¿ï¼Œè¡¨ç¤ºã—ãŸçµæœã‚’å›³ï¼‘ã«ç¤ºã™ï¼
 
-![Œ´‰æ‘œ](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai8-1.png?raw=true)   
-}1 Œ´‰æ‘œ
+![åŸç”»åƒ](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai8-1.png?raw=true)   
+å›³1 åŸç”»åƒ
 
-Œ´‰æ‘œ‚ğ“ñ’l‰»‚·‚é‚É‚Íè‡’l‚Ì‹P“x’l‚ğ128‚Éİ’è‚·‚éD
+åŸç”»åƒã‚’äºŒå€¤åŒ–ã™ã‚‹ã«ã¯é–¾å€¤ã®è¼åº¦å€¤ã‚’128ã«è¨­å®šã™ã‚‹ï¼
 
-IMG = ORG>128; % 128‚É‚æ‚é“ñ’l‰»  
-imagesc(IMG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\¦  
+IMG = ORG>128; % 128ã«ã‚ˆã‚‹äºŒå€¤åŒ–  
+imagesc(IMG); colormap(gray); colorbar; % ç”»åƒã®è¡¨ç¤º  
 
-Œ´‰æ‘œ‚ğ“ñ’l‰»‚µ‚½‰æ‘œ‚ÌŒ‹‰Ê‚ğ}‚Q‚É¦‚·D
+åŸç”»åƒã‚’äºŒå€¤åŒ–ã—ãŸç”»åƒã®çµæœã‚’å›³ï¼’ã«ç¤ºã™ï¼
 
-![Œ´‰æ‘œ](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai8-2.png?raw=true)  
-}2 Œ´‰æ‘œ‚ğ“ñ’l‰»‚µ‚½‰æ‘œ
+![åŸç”»åƒ](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai8-2.png?raw=true)  
+å›³2 åŸç”»åƒã‚’äºŒå€¤åŒ–ã—ãŸç”»åƒ
 
-ƒ‰ƒxƒŠƒ“ƒO‚ğ‚µ‚½‰æ‘œ‚ğ•\¦‚·‚éD
+ãƒ©ãƒ™ãƒªãƒ³ã‚°ã‚’ã—ãŸç”»åƒã‚’è¡¨ç¤ºã™ã‚‹ï¼
 
 IMG = bwlabeln(IMG);  
-imagesc(IMG); colormap(jet); colorbar; % ‰æ‘œ‚Ì•\¦ 
+imagesc(IMG); colormap(jet); colorbar; % ç”»åƒã®è¡¨ç¤º 
 
-ƒ‰ƒxƒŠƒ“ƒO‚µ‚½‰æ‘œ‚ÌŒ‹‰Ê‚ğ}‚R‚É¦‚·D
+ãƒ©ãƒ™ãƒªãƒ³ã‚°ã—ãŸç”»åƒã®çµæœã‚’å›³ï¼“ã«ç¤ºã™ï¼
 
-![Œ´‰æ‘œ](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai8-3.png?raw=true)  
-}3 Œ´‰æ‘œ‚ğ“ñ’l‰»‚µ‚½‰æ‘œ
+![åŸç”»åƒ](https://github.com/NaokiAoyama/lecture_image_processing/blob/master/image/kadai8-3.png?raw=true)  
+å›³3 ãƒ©ãƒ™ãƒªãƒ³ã‚°ã—ãŸç”»åƒ
